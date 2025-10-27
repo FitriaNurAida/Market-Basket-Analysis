@@ -57,3 +57,6 @@ Interpretation: Since the $\text{Lift} (0.95)$ is less than 1, this means that w
 ## What is Apriori Algorithm?
 The Apriori Algorithm is a classic and foundational algorithm used for Market Basket Analysis to discover frequent itemsets and derive association rules. It operates based on the key principle that any subset of a frequent itemset must also be frequent. This property significantly reduces the search space, making the algorithm efficient for large datasets.<br><br>
 <img width="800" height="535" alt="image" src="https://github.com/user-attachments/assets/e364d269-61f5-402d-854c-c551ef3f3f14" />
+<br><br>
+# Let's Practice !!!
+Data Source : https://www.kaggle.com/datasets/rupakroy/online-retail 
