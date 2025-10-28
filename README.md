@@ -32,7 +32,7 @@ Interpretation: 40% of all transactions contain both Bread and Milk.<br><br>
 **Priority Business Case** : Store Layout/Product Placement, Inventory Management, General Product Bundling
 <br><br>
 ### 2. Confidence<br>
-Confidence measures of how often items in B appear in transactions that already contain A. It is the **conditional probability** $P(A|B)$.<br><br>
+Confidence measures of how often items in A appear in transactions that already contain B. It is the **conditional probability** $P(B|A)$.<br><br>
 $$\text{Confidence} (A \Rightarrow B) = \frac{\text{Support} (A \cap B)}{\text{Support} (A)}$$<br><br>
 This metric measures the reliability/power of the rule. "If a customer buys $A$, how likely are they to also buy $B$?".<br>
 For example : Measures the probability of buying Milk given that Bread was purchased, P(Milk|Bread).<br><br>
