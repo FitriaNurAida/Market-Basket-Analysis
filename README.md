@@ -49,7 +49,7 @@ $\text{Lift} > 1$: The purchase of A increases the probability of purchasing B (
 $\text{Lift} < 1$: The purchase of A decreases the probability of purchasing B (negatively associated).<br>
 For example : Measures how much stronger the rule is than expected by chance.<br><br>
 $$\text{Lift}(\text{Bread} \implies \text{Milk}) = \frac{\text{Confidence}(\text{Bread} \implies \text{Milk})}{\text{Support}(\text{Milk})} = \frac{0.667}{0.7} \approx 0.95$$<br><br>
-Interpretation: Since the $\text{Lift} (0.95)$ is less than 1, this means that while the confidence is high, the association is slightly negative. Buying Bread actually makes it slightly less likely the customer will buy Milk, compared to the overall popularity of Milk. In simple terms, Milk is popular (70%) that the rule isn't adding much predictive value.
+Interpretation: Since the $\text{Lift} (0.95)$ is less than 1, this means that while the confidence is slightly high, the association is slightly negative. Buying Bread actually makes it slightly less likely the customer will buy Milk, compared to the overall popularity of Milk. In simple terms, Milk is popular (70%) that the rule isn't adding much predictive value.
 <br><br>
 **Priority Business Case** : Promotional Strategy
 <br><br>
